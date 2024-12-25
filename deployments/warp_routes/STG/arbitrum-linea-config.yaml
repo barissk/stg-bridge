@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x32392E68759bD1E925Cf009B8E24c0752E78D44C"
+    chainName: arbitrum
+    collateralAddressOrDenom: "0x6694340fc020c5e6b96567843da2df01b2ce1eb6"
+    connections:
+      - token: ethereum|linea|0x906631577EfaD317681036a8CE8851089Bc28C96
+    decimals: 18
+    name: StargateToken
+    standard: EvmHypCollateral
+    symbol: STG
+  - addressOrDenom: "0x906631577EfaD317681036a8CE8851089Bc28C96"
+    chainName: linea
+    collateralAddressOrDenom: "0x808d7c71ad2ba3fa531b068a2417c63106bc0949"
+    connections:
+      - token: ethereum|arbitrum|0x32392E68759bD1E925Cf009B8E24c0752E78D44C
+    decimals: 18
+    name: StargateToken
+    standard: EvmHypCollateral
+    symbol: STG
